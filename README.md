@@ -40,7 +40,7 @@
      __bundle exec run run_worker__
      
   - Open different command console and run following commands to start Rails app server.
-     1. __bundle install 
+     1. __bundle install__
      2. __rails s -p 8080__
   - Open your browser and visit localhost:8080.
   

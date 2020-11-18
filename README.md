@@ -17,11 +17,8 @@
   - edit config/settings.yml
   
      project_id: [PROJECT_ID].
-     
      pubsub_topic: baterdene-kisi-topic.
-     
      pubsub_subscription: baterdene-kisi-sub
-     
   - [PROJECT_ID] value needs to be changed so that it can be unique Cloud uniqeq ID. Please change it !!!
   
   - run following commands to create pubsub project, topic ,and sub.

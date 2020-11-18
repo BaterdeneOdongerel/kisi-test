@@ -18,11 +18,11 @@
   
      project_id: [PROJECT_ID].
      
-     pubsub_topic: baterdene-kisi-topic.
+     pubsub_topic: baterdene-kisi-topic
      
      pubsub_subscription: baterdene-kisi-sub
      
-  - [PROJECT_ID] value needs to be changed so that it can be unique Cloud uniqeq ID. Please change it !!!
+  - __[PROJECT_ID] value needs to be changed so that it can be unique Cloud uniqeq ID. Please change it !!!__
   
   - run following commands to create pubsub project, topic ,and sub.
   
@@ -33,6 +33,7 @@
      * __gcloud pubsub subscriptions create baterdene-kisi-topic --topic baterdene-kisi-sub__
      
      * Please make sure that you are loggin in google cloud service and account if you face any errors.
+     * it might ask you to log in with google service account. 
         
   - run following commands to run background worker.
   

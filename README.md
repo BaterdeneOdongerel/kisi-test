@@ -23,19 +23,21 @@ Kisi-test.
      
      pubsub_subscription: baterdene-kisi-sub
      
-  2. [PROJECT_ID] value needs to be changed so that it can be unique Cloud uniqeq ID. Change it !!!
+  2. [PROJECT_ID] value needs to be changed so that it can be unique Cloud uniqeq ID. Please change it !!!
   
   3. run following commands to create pubsub project, topic ,and sub.
   
      1. gcloud projects create [PROJECT_ID].
      
-     2. gcloud pubsub topics create my-project-baterdene-topic.
+     2. gcloud pubsub topics create baterdene-kisi-topic.
      
      3. gcloud pubsub subscriptions create baterdene-kisi-topic --topic baterdene-kisi-sub.
      
         Please make sure that you are loggin in google cloud service and account if you face any errors.
         
-  4. run following commands to run background worker
+  4. run following commands to run background worker.
+  
      bundle exec run run_worker
   5. enter 2 number and send.
+  
   6. Take look at the other console that runs worker.

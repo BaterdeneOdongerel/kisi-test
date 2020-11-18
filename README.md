@@ -13,6 +13,7 @@ Kisi-test.
   It fails and retries if the values are not Integer.
 
 - How to Run
+
   I hope you already have Google SDK and google service account.
   1. edit config/settings.yml
      project_id: [PROJECT_ID]

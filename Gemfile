@@ -5,16 +5,12 @@ ruby '2.6.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
-# Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
-# Use Puma as the app server
 gem 'puma', '~> 4.1'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem "google-cloud-pubsub", "~> 0.30"
-# [END pubsub]
-# [START google_api_client]
 gem "google-api-client", "~> 0.19"
-# [END google_api_client]
+
 
 gem "omniauth"
 gem "omniauth-google-oauth2"

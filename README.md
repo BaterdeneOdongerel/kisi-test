@@ -37,7 +37,7 @@
         
   - run following commands to run background worker.
   
-     __bundle exec run run_worker__
+     __bundle exec rake run_worker__
      
   - Open different command console and run following commands to start Rails app server.
      1. __bundle install__

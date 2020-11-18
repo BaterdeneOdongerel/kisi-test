@@ -26,21 +26,21 @@
   
   - run following commands to create pubsub project, topic ,and sub.
   
-     * gcloud projects create [PROJECT_ID].
+     * __gcloud projects create [PROJECT_ID]__
      
-     * gcloud pubsub topics create baterdene-kisi-topic.
+     * __gcloud pubsub topics create baterdene-kisi-topic__
      
-     * gcloud pubsub subscriptions create baterdene-kisi-topic --topic baterdene-kisi-sub.
+     * __gcloud pubsub subscriptions create baterdene-kisi-topic --topic baterdene-kisi-sub__
      
      * Please make sure that you are loggin in google cloud service and account if you face any errors.
         
   - run following commands to run background worker.
   
-     bundle exec run run_worker
+     __bundle exec run run_worker__
      
   - Open different command console and run following commands to start Rails app server.
-     1. bundle install. 
-     2. rails s -p 8080.
+     1. __bundle install 
+     2. __rails s -p 8080__
   - Open your browser and visit localhost:8080.
   
   - Send numbers or other strings and take a look at other console. 

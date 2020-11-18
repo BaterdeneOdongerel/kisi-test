@@ -1,7 +1,7 @@
 default: &default
-  project_id: my-project-baterdene-kisi
-  pubsub_topic: my-project-baterdene-topic-kisk
-  pubsub_subscription: my-project-baterdene-sub-kisi
+  project_id: [PROJECT_ID]
+  pubsub_topic: baterdene-kisi-topic
+  pubsub_subscription: baterdene-kisi-sub
 
 development:
   <<: *default

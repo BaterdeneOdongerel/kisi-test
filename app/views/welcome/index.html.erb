@@ -1,5 +1,7 @@
 
-<h1>Hello, Rails!</h1>
+<h1>Send two numbers to background job.</h1>
+<h1>Background job will calculate summary of the numbers </h1>
+<h1>Background job will fail if numbers are unable to be converted to Integer</h1>
 <input type="text" id="inputa"/> +
 <input type="text" id="inputb"/>
 <button type="text" id="button_id" onclick="return foo();">Send</button>
@@ -9,5 +11,8 @@
         const url='http://localhost:8080/?a=' + document.getElementById("inputa").value + '&b=' + document.getElementById("inputb").value;
         Http.open("GET", url);
         Http.send();
+        document.getElementById("inputa").value = "";
+        document.getElementById("inputb").value = "";
+        alert("request sent");
     }
 </script>

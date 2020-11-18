@@ -16,11 +16,15 @@ Kisi-test.
 
   I hope you already have Google SDK and google service account.
   1. edit config/settings.yml
+  
      project_id: [PROJECT_ID]
      pubsub_topic: baterdene-kisi-topic
      pubsub_subscription: baterdene-kisi-sub
+     
   2. [PROJECT_ID] value needs to be changed so that it can be unique Cloud uniqeq ID. Change it !!!
+  
   3. run following commands to create pubsub project, topic ,and sub.
+  
      1. gcloud projects create [PROJECT_ID]
      2. gcloud pubsub topics create my-project-baterdene-topic
      3. gcloud pubsub subscriptions create baterdene-kisi-topic --topic baterdene-kisi-sub

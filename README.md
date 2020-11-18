@@ -17,19 +17,22 @@
   - edit config/settings.yml
   
      project_id: [PROJECT_ID].
+     
      pubsub_topic: baterdene-kisi-topic.
+     
      pubsub_subscription: baterdene-kisi-sub
+     
   - [PROJECT_ID] value needs to be changed so that it can be unique Cloud uniqeq ID. Please change it !!!
   
   - run following commands to create pubsub project, topic ,and sub.
   
-     1. gcloud projects create [PROJECT_ID].
+     * gcloud projects create [PROJECT_ID].
      
-     2. gcloud pubsub topics create baterdene-kisi-topic.
+     * gcloud pubsub topics create baterdene-kisi-topic.
      
-     3. gcloud pubsub subscriptions create baterdene-kisi-topic --topic baterdene-kisi-sub.
+     * gcloud pubsub subscriptions create baterdene-kisi-topic --topic baterdene-kisi-sub.
      
-        Please make sure that you are loggin in google cloud service and account if you face any errors.
+     * Please make sure that you are loggin in google cloud service and account if you face any errors.
         
   - run following commands to run background worker.
   

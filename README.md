@@ -2,7 +2,8 @@
 
 Kisi-test.
 
-- Basic flow.
+- Basic Info.
+
   A rails App that sends 2 value 'a' and 'b' to background job. The Background job calculates summary of the numbers or it fails if the numbers are unable to be converted into Integer.
 
   There are two ActiveJobs "PushMessagePubsubJob" and "CalculateExpressionJob".
@@ -25,3 +26,5 @@ Kisi-test.
         Please make sure that you are loggin in google cloud service and account if you face any errors
   4. run following commands to run background worker
      bundle exec run run_worker
+  5. enter 2 number and send.
+  6. Take look at the other console that runs worker.

@@ -38,6 +38,9 @@
   
      bundle exec run run_worker
      
-  - enter 2 number and send.
+  - Open different command console and run following commands to start Rails app server.
+     1. bundle install. 
+     2. rails s -p 8080.
+  - Open your browser and visit localhost:8080.
   
-  - Take look at the other console that runs worker.
+  - Send numbers or other strings and take a look at other console. 

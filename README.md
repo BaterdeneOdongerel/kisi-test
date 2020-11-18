@@ -22,7 +22,7 @@
      
      pubsub_subscription: baterdene-kisi-sub
      
-  - __[PROJECT_ID] value needs to be changed so that it can be unique Cloud uniqeq ID. Please change it !!!__
+  - __[PROJECT_ID] value needs to be changed into an unique Cloud ID. Please change it !!!__
   
   - run following commands to create pubsub project, topic ,and sub.
   
